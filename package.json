@@ -1,0 +1,16 @@
+{
+  "name": "hicham_tailwind_css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "tail-watch" :"npx tailwindcss -i ./input_style.css -o ./style.css --watch",
+    "tail-build" :"npx tailwindcss -i ./input_style.css -o ./style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
